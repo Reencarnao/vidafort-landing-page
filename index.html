@@ -7,36 +7,113 @@
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body { font-family: Arial, sans-serif; line-height: 1.6; background: #fff; color: #111; }
-    .btn { background: #00a859; color: #fff; padding: 12px 24px; border: none; border-radius: 5px; text-decoration: none; display: inline-block; }
+    .btn {
+      background: #00a859;
+      color: #fff;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+    }
 
-    section { padding: 60px 20px; max-width: 1000px; margin: auto; }
-    .benefits { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; text-align: center; }
-    .benefits div { padding: 20px; border: 1px solid #ccc; border-radius: 10px; }
-    .products { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
-    .product { border: 1px solid #ccc; border-radius: 10px; overflow: hidden; }
-    .product img { width: 100%; }
-    .product h3 { padding: 10px; background: #00a859; color: white; }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
 
-    .cta { text-align: center; margin-top: 40px; }
+    .benefits {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      text-align: center;
+    }
 
-    footer { background: #111; color: #ccc; padding: 40px 20px; text-align: center; }
-    footer a { color: #00a859; text-decoration: none; }
-    form { display: grid; gap: 10px; max-width: 500px; margin: 30px auto; }
-    input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
+    .benefits div {
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+    }
 
-    .main-header { width: 100%; overflow: hidden; }
-    .header-image { width: 100%; height: auto; display: block; }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .product {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .product img {
+      width: 100%;
+    }
+
+    .product h3 {
+      padding: 10px;
+      background: #00a859;
+      color: white;
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    footer {
+      background: #111;
+      color: #ccc;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    footer a {
+      color: #00a859;
+      text-decoration: none;
+    }
+
+    form {
+      display: grid;
+      gap: 10px;
+      max-width: 500px;
+      margin: 30px auto;
+    }
+
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .main-header {
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .header-image {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .sellos-img {
+      display: block;
+      margin: 30px auto 0;
+      width: 250px;
+      max-width: 90%;
+      height: auto;
+    }
   </style>
 </head>
 <body>
-
-  <!-- Banner principal -->
   <header class="main-header">
     <img src="bannerweb.png" alt="Header VidaFort" class="header-image" />
   </header>
 
-  <!-- Sección: Sobre Nosotros -->
-  <section id="sobre-nosotros" style="padding: 60px 20px; max-width: 1000px; margin: auto; text-align: center;">
+  <section id="sobre-nosotros" style="text-align: center;">
     <h2 style="font-size: 2rem; color: #111; margin-bottom: 20px;">Sobre Nosotros</h2>
     <p style="font-size: 1.1rem; line-height: 1.6; color: #333;">
       En <strong>VidaFort</strong> nos dedicamos a la distribución de ropa técnica y equipos de protección personal diseñados para responder a las exigencias de la industria, la construcción y el retail.
@@ -47,13 +124,10 @@
       No fabricamos: seleccionamos lo mejor, para que tú no tengas que preocuparte.
     </p>
 
-    <!-- Sellos -->
-    <div style="margin-top: 40px;">
-      <img src="SELLOS.png" alt="Sellos de confianza VidaFort" style="max-width: 100%; height: auto;" />
-    </div>
+    <!-- Imagen única de sellos -->
+    <img src="SELLOS.png" alt="Sellos de confianza VidaFort" class="sellos-img" />
   </section>
 
-  <!-- Sección: Productos -->
   <section id="catalogo">
     <h2 style="text-align:center; margin-bottom: 30px;">Productos Destacados</h2>
     <div class="products">
@@ -75,7 +149,6 @@
     </div>
   </section>
 
-  <!-- Sección: Contacto -->
   <section>
     <h2 style="text-align:center; margin-bottom: 30px;">Contáctanos</h2>
     <form>
@@ -86,11 +159,9 @@
     </form>
   </section>
 
-  <!-- Footer -->
   <footer>
     <p>© 2025 Vidafort. Todos los derechos reservados.</p>
     <p><a href="https://wa.me/56912345678">Contáctanos por WhatsApp</a></p>
   </footer>
-
 </body>
 </html>
