@@ -23,37 +23,37 @@
     footer a { color: #00a859; text-decoration: none; }
     form { display: grid; gap: 10px; max-width: 500px; margin: 30px auto; }
     input, textarea { padding: 10px; border: 1px solid #ccc; border-radius: 5px; }
-.main-header {
-  width: 100%;
-  overflow: hidden;
-}
 
-.header-image {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
+    .main-header { width: 100%; overflow: hidden; }
+    .header-image { width: 100%; height: auto; display: block; }
   </style>
 </head>
 <body>
-<header class="main-header">
-  <img src="bannerweb.png" alt="Header VidaFort" class="header-image" />
-</header>
 
+  <!-- Banner principal -->
+  <header class="main-header">
+    <img src="bannerweb.png" alt="Header VidaFort" class="header-image" />
+  </header>
 
+  <!-- Sección: Sobre Nosotros -->
+  <section id="sobre-nosotros" style="padding: 60px 20px; max-width: 1000px; margin: auto; text-align: center;">
+    <h2 style="font-size: 2rem; color: #111; margin-bottom: 20px;">Sobre Nosotros</h2>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: #333;">
+      En <strong>VidaFort</strong> nos dedicamos a la distribución de ropa técnica y equipos de protección personal diseñados para responder a las exigencias de la industria, la construcción y el retail.
+      Nuestra misión es brindar soluciones funcionales, cómodas y resistentes que protejan a los trabajadores desde los pies hasta la cabeza.
+    </p>
+    <p style="font-size: 1.1rem; line-height: 1.6; color: #333; margin-top: 20px;">
+      Nos enfocamos en la calidad, la entrega rápida en la Región Metropolitana y un servicio cercano que entiende las necesidades reales de faena.
+      No fabricamos: seleccionamos lo mejor, para que tú no tengas que preocuparte.
+    </p>
 
-
-  <section>
-    <h2 style="text-align:center; margin-bottom: 30px;">¿Por qué elegirnos?</h2>
-    <div class="benefits">
-      <div>✅ Certificación Técnica</div>
-      <div>✅ Alta Durabilidad</div>
-      <div>✅ Entrega Rápida</div>
-      <div>✅ Precios Competitivos</div>
+    <!-- Sellos -->
+    <div style="margin-top: 40px;">
+      <img src="SELLOS.png" alt="Sellos de confianza VidaFort" style="max-width: 100%; height: auto;" />
     </div>
   </section>
 
+  <!-- Sección: Productos -->
   <section id="catalogo">
     <h2 style="text-align:center; margin-bottom: 30px;">Productos Destacados</h2>
     <div class="products">
@@ -75,6 +75,7 @@
     </div>
   </section>
 
+  <!-- Sección: Contacto -->
   <section>
     <h2 style="text-align:center; margin-bottom: 30px;">Contáctanos</h2>
     <form>
@@ -85,9 +86,11 @@
     </form>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>© 2025 Vidafort. Todos los derechos reservados.</p>
     <p><a href="https://wa.me/56912345678">Contáctanos por WhatsApp</a></p>
   </footer>
+
 </body>
 </html>
